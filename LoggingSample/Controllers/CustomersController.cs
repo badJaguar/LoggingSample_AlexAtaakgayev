@@ -17,7 +17,7 @@ namespace LoggingSample.Controllers
     {
         private readonly AppDbContext _context = new AppDbContext();
         private readonly CustomerService _customerService = new CustomerService();
-        private static Logger Logger = LogManager.GetCurrentClassLogger();
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         [Route("")]
         public async Task<IHttpActionResult> Get()
@@ -34,7 +34,7 @@ namespace LoggingSample.Controllers
 
             try
             {
-                var customer = await _customerService.GetCustomer(customerId);
+                var customer = await _customerService.GetCustomerAsync(customerId);
 
                 if (customer == null)
                 {
@@ -43,6 +43,7 @@ namespace LoggingSample.Controllers
                 }
 
                 Logger.Info($"Retrieving customer with id {customerId} to response.");
+                Log
 
                 return Ok(InitCustomer(customer));
             }
@@ -67,7 +68,7 @@ namespace LoggingSample.Controllers
         {
             return new
             {
-                _self = new UrlHelper(Request).Link("Customer", new {customerId = model.Id}),
+                _self = new UrlHelper(Request).Link("Customer", new { customerId = model.Id }),
                 orders = new UrlHelper(Request).Link("Orders", new { customerId = model.Id }),
                 data = model
             };

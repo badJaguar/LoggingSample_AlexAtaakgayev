@@ -12,7 +12,7 @@ namespace LoggingSample_BLL.Services
     {
         private readonly AppDbContext _context = new AppDbContext();
 
-        public Task<CustomerModel> GetCustomer(int customerId)
+        public Task<CustomerModel> GetCustomerAsync(int customerId)
         {
             if (customerId == 56)
             {
@@ -31,21 +31,22 @@ namespace LoggingSample_BLL.Services
         public void Dispose()
         {
             _context.Dispose();
+            GC.SuppressFinalize(this);
         }
     }
 
     public class CustomerServiceException : Exception
     {
+
+        public CustomerServiceException(string message, ErrorType errorType) : base(message)
+        {
+            Type = errorType;
+        }
         public enum ErrorType
         {
             WrongCustomerId
         }
 
         public ErrorType Type { get; set; }
-
-        public CustomerServiceException(string message, ErrorType errorType): base(message)
-        {
-           Type = errorType;
-        }
     }
 }

@@ -9,7 +9,7 @@ using NLog.Targets;
 
 namespace LoggingSample_BLL.LogTargets
 {
-    [Target("DbTarget")]
+    [Target(nameof(DbTarget))]
     public sealed class DbTarget : AsyncTaskTarget
     {
         public DbTarget()
@@ -22,7 +22,8 @@ namespace LoggingSample_BLL.LogTargets
 
         protected override async Task WriteAsyncTask(LogEventInfo logEvent, CancellationToken cancellationToken)
         {
-            using (var logContext = new LogContext()) {
+            using (var logContext = new LogContext())
+            {
                 logContext.LogMessages.Add(new LogMessage
                 {
                     MachineName = this.Host,
@@ -34,7 +35,7 @@ namespace LoggingSample_BLL.LogTargets
                     TimeStamp = logEvent.TimeStamp
                 });
 
-                await logContext.SaveChangesAsync(cancellationToken);
+                await logContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
             }
 
         }

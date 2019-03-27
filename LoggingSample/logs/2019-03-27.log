@@ -1,0 +1,6 @@
+2019-03-27 13:57:25.0595 | GREEN5 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController.Get(C:\Users\-\Documents\GitHub\LoggingSample\LoggingSample\Controllers\CustomersController.cs:33) | INFO | Start getting customer with id 1. |  | 
+
+2019-03-27 14:02:04.2728 | GREEN5 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController+<Get>d__4.MoveNext(C:\Users\-\Documents\GitHub\LoggingSample\LoggingSample\Controllers\CustomersController.cs:45) | INFO | Retrieving customer with id 1 to response. |  | 
+
+2019-03-27 14:09:12.6951 | GREEN5 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController.Get(C:\Users\-\Documents\GitHub\LoggingSample\LoggingSample\Controllers\CustomersController.cs:33) | INFO | Start getting customer with id 2. |  | 
+
