@@ -31,7 +31,18 @@ namespace LoggingSample_BLL.Services
 
         public async Task<CustomerModel> CreateCustomerAsync(CustomerModel model)
         {
-            var dbModels = await _context.Customers.Where(customer => customer.Id == model.Id).ToListAsync();
+            var dbModels = await _context.Customers
+                .Where(customer => customer.Id == model.Id).ToListAsync();
+            var equitable =await _context.Customers.Select(customer => customer.Id).ToListAsync();
+            foreach (var customerId in equitable)
+            {
+                if (model.Id == customerId)
+                {
+                    throw new CustomerServiceException($"Model {customerId} is exists in database", CustomerServiceException.ErrorType.ModelIsExists);
+                }
+            }
+            
+            
             _context.Customers.AddRange(dbModels);
             await _context.SaveChangesAsync();
             return model;
@@ -53,7 +64,8 @@ namespace LoggingSample_BLL.Services
         }
         public enum ErrorType
         {
-            WrongCustomerId
+            WrongCustomerId,
+            ModelIsExists
         }
 
         public ErrorType Type { get; set; }
