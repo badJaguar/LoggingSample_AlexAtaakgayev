@@ -22,9 +22,23 @@ namespace LoggingSample.Controllers
         [Route("")]
         public async Task<IHttpActionResult> Get()
         {
-            var customers = (await _context.Customers.ToListAsync()).Select(item => item.Map()).Select(InitCustomer);
+            try
+            {
+                var customers = (await _context.Customers.ToListAsync())
+                    .Select(item => item.Map()).Select(InitCustomer).ToList();
+                if (customers.Count <= 0)
+                {
+                    Logger.Warn($"{nameof(customers)} is empty.");
+                }
 
-            return Ok(customers);
+                return Ok(customers);
+            }
+            catch (CustomerServiceException e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+
         }
 
         [Route("{customerId}", Name = "Customer")]
@@ -43,7 +57,6 @@ namespace LoggingSample.Controllers
                 }
 
                 Logger.Info($"Retrieving customer with id {customerId} to response.");
-                Log
 
                 return Ok(InitCustomer(customer));
             }
