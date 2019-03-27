@@ -1,0 +1,14 @@
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\bin\Debug\LoggingSample_Logs_DAL.dll.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\bin\Debug\LoggingSample_Logs_DAL.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\bin\Debug\LoggingSample_Logs_DAL.pdb
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\bin\Debug\EntityFramework.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\bin\Debug\EntityFramework.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\obj\Debug\LoggingSample_Logs_DAL.csprojAssemblyReference.cache
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\obj\Debug\LoggingSample_Logs_DAL.Migrations.Initial.resources
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\obj\Debug\LoggingSample_Logs_DAL.csproj.GenerateResource.cache
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\obj\Debug\LoggingSample_Logs_DAL.csproj.CoreCompileInputs.cache
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\obj\Debug\LoggingSample_Logs_DAL.csproj.CopyComplete
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\obj\Debug\LoggingSample_Logs_DAL.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample_Logs_DAL\obj\Debug\LoggingSample_Logs_DAL.pdb

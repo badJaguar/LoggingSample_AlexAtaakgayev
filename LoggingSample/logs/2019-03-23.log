@@ -1,0 +1,4 @@
+2019-03-23 13:40:06.1017 | EPBYMINW5246 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController.Get(E:\Dev\dotnetlab-2018q3\Logging, audit\LoggingSample\LoggingSample\Controllers\CustomersController.cs:33) | INFO | Start getting customer with id 1. |  | 
+
+2019-03-23 13:40:18.5006 | EPBYMINW5246 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController+<Get>d__4.MoveNext(E:\Dev\dotnetlab-2018q3\Logging, audit\LoggingSample\LoggingSample\Controllers\CustomersController.cs:45) | INFO | Retrieving customer with id 1 to response. |  | 
+

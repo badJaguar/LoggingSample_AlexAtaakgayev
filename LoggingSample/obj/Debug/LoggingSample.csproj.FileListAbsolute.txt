@@ -1,0 +1,202 @@
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\LoggingSample.dll.config
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\LoggingSample.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\LoggingSample.pdb
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\csc.exe
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\csc.exe.config
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\csc.rsp
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\csi.exe
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\csi.exe.config
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\csi.rsp
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.AppContext.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Console.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.IO.Compression.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.IO.FileSystem.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.IO.Pipes.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Security.AccessControl.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Security.Claims.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.ValueTuple.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Xml.XPath.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\vbc.exe
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\vbc.exe.config
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\vbc.rsp
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\VBCSCompiler.exe
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Antlr3.Runtime.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Newtonsoft.Json.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Swashbuckle.Core.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Net.Http.Formatting.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Helpers.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Http.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Http.WebHost.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Mvc.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Optimization.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Razor.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.WebPages.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.WebPages.Razor.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\WebActivatorEx.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\WebGrease.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Newtonsoft.Json.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Net.Http.Formatting.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Helpers.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Http.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Http.WebHost.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Mvc.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Optimization.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.Razor.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.WebPages.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Web.WebPages.Razor.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Antlr3.Runtime.pdb
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\obj\Debug\LoggingSample.csprojAssemblyReference.cache
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\obj\Debug\LoggingSample.csproj.CoreCompileInputs.cache
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\obj\Debug\LoggingSample.csproj.CopyComplete
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\obj\Debug\LoggingSample.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\obj\Debug\LoggingSample.pdb
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\NLog.config
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\EntityFramework.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\EntityFramework.SqlServer.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\NLog.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\EntityFramework.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\EntityFramework.SqlServer.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\NLog.xml
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\LoggingSample_DAL.pdb
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\LoggingSample_DAL.dll
+E:\Dev\dotnetlab-2018q3\Logging & audit\LoggingSample\LoggingSample\bin\LoggingSample_DAL.dll.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\NLog.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample.dll.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample.pdb
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\csc.exe
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\csc.exe.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\csc.rsp
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\csi.exe
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\csi.exe.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\csi.rsp
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.AppContext.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Console.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.IO.Compression.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.IO.Pipes.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Security.Claims.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.ValueTuple.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Xml.XPath.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\vbc.exe
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\vbc.exe.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\vbc.rsp
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\VBCSCompiler.exe
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Antlr3.Runtime.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\EntityFramework.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\EntityFramework.SqlServer.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_BLL.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_DAL.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Newtonsoft.Json.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\NLog.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Swashbuckle.Core.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Net.Http.Formatting.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Helpers.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Http.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Http.WebHost.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Mvc.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Optimization.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Razor.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.WebPages.Deployment.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.WebPages.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.WebPages.Razor.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\WebActivatorEx.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\WebGrease.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_Logs_DAL.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_BLL.pdb
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_BLL.dll.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_DAL.pdb
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_DAL.dll.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\EntityFramework.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\EntityFramework.SqlServer.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\NLog.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Newtonsoft.Json.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Net.Http.Formatting.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Helpers.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Http.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Http.WebHost.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Mvc.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Optimization.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.Razor.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.WebPages.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.WebPages.Deployment.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Web.WebPages.Razor.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Antlr3.Runtime.pdb
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_Logs_DAL.pdb
+C:\Users\-\Desktop\LoggingSample\LoggingSample\bin\LoggingSample_Logs_DAL.dll.config
+C:\Users\-\Desktop\LoggingSample\LoggingSample\obj\Debug\LoggingSample.csprojAssemblyReference.cache
+C:\Users\-\Desktop\LoggingSample\LoggingSample\obj\Debug\LoggingSample.csproj.CoreCompileInputs.cache
+C:\Users\-\Desktop\LoggingSample\LoggingSample\obj\Debug\LoggingSample.csproj.CopyComplete
+C:\Users\-\Desktop\LoggingSample\LoggingSample\obj\Debug\LoggingSample.dll
+C:\Users\-\Desktop\LoggingSample\LoggingSample\obj\Debug\LoggingSample.pdb
