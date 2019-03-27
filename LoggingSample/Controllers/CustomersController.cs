@@ -3,23 +3,25 @@ using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Http;
-using System.Web.Http.Routing;
+using System.Web.Mvc;
+using System.Web.Routing;
 using LoggingSample_BLL.Helpers;
 using LoggingSample_BLL.Models;
 using LoggingSample_BLL.Services;
 using LoggingSample_DAL.Context;
 using NLog;
+using UrlHelper = System.Web.Http.Routing.UrlHelper;
 
 namespace LoggingSample.Controllers
 {
-    [RoutePrefix("api/customers")]
+    [System.Web.Http.RoutePrefix("api/customers")]
     public class CustomersController : ApiController
     {
         private readonly AppDbContext _context = new AppDbContext();
         private readonly CustomerService _customerService = new CustomerService();
         private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
-        [Route("")]
+        [System.Web.Http.Route("")]
         public async Task<IHttpActionResult> Get()
         {
             try
@@ -41,7 +43,7 @@ namespace LoggingSample.Controllers
 
         }
 
-        [Route("{customerId}", Name = "Customer")]
+        [System.Web.Http.Route("{customerId}", Name = "Customer")]
         public async Task<IHttpActionResult> Get(int customerId)
         {
             Logger.Info($"Start getting customer with id {customerId}.");
@@ -76,18 +78,23 @@ namespace LoggingSample.Controllers
             }
         }
 
-        [HttpPost]
-        [Route("")]
+        [System.Web.Http.HttpPost]
+        [System.Web.Http.Route("")]
         public async Task<IHttpActionResult> PostCustomerAsync([FromBody] CustomerModel model)
         {
             if (!ModelState.IsValid)
             {
+                var errors = ModelState.Select(pair => pair.Value.Errors)
+                    .Where(collection => collection.Count > 0).ToList();
+                foreach (var error in errors)
+                {
+                    Logger.Error(error);
+                }
                 return BadRequest(ModelState);
             }
 
             await _customerService.CreateCustomerAsync(model);
-            var location = $"/api/customers/{model.Id}";
-            return Created(location, model);
+            return Ok(InitCustomer(model));
         }
 
 

@@ -1,9 +1,3 @@
-2019-03-27 13:57:25.0595 | GREEN5 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController.Get(C:\Users\-\Documents\GitHub\LoggingSample\LoggingSample\Controllers\CustomersController.cs:33) | INFO | Start getting customer with id 1. |  | 
-
-2019-03-27 14:02:04.2728 | GREEN5 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController+<Get>d__4.MoveNext(C:\Users\-\Documents\GitHub\LoggingSample\LoggingSample\Controllers\CustomersController.cs:45) | INFO | Retrieving customer with id 1 to response. |  | 
-
-2019-03-27 14:09:12.6951 | GREEN5 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController.Get(C:\Users\-\Documents\GitHub\LoggingSample\LoggingSample\Controllers\CustomersController.cs:33) | INFO | Start getting customer with id 2. |  | 
-
 2019-03-27 22:24:31.5378 | DESKTOP-RQ5NK67 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController.PostCustomerAsync(C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample\Controllers\CustomersController.cs:85) | ERROR | System.Linq.Enumerable+WhereSelectEnumerableIterator`2[System.Collections.Generic.KeyValuePair`2[System.String,System.Web.Http.ModelBinding.ModelState],System.Web.Http.ModelBinding.ModelErrorCollection] |  | 
 
 2019-03-27 22:44:16.7556 | DESKTOP-RQ5NK67 | LoggingSample.Controllers.CustomersController | LoggingSample.Controllers.CustomersController.PostCustomerAsync(C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample\Controllers\CustomersController.cs:89) | ERROR | System.Web.Http.ModelBinding.ModelErrorCollection |  | 
