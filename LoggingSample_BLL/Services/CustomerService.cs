@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.Entity;
+using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Threading.Tasks;
 using LoggingSample_BLL.Helpers;
@@ -26,6 +27,14 @@ namespace LoggingSample_BLL.Services
 
                 return customer?.Map();
             });
+        }
+
+        public async Task<CustomerModel> CreateCustomerAsync(CustomerModel model)
+        {
+            var dbModels = await _context.Customers.Where(customer => customer.Id == model.Id).ToListAsync();
+            _context.Customers.AddRange(dbModels);
+            await _context.SaveChangesAsync();
+            return model;
         }
 
         public void Dispose()

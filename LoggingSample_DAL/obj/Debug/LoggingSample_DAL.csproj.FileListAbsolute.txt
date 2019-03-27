@@ -24,3 +24,17 @@ C:\Users\-\Desktop\LoggingSample\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.c
 C:\Users\-\Desktop\LoggingSample\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.csproj.CopyComplete
 C:\Users\-\Desktop\LoggingSample\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.dll
 C:\Users\-\Desktop\LoggingSample\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.pdb
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\bin\Debug\LoggingSample_DAL.dll.config
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\bin\Debug\LoggingSample_DAL.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\bin\Debug\LoggingSample_DAL.pdb
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\bin\Debug\EntityFramework.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\bin\Debug\EntityFramework.xml
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.csprojAssemblyReference.cache
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.Migrations.Initial.resources
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.csproj.GenerateResource.cache
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.csproj.CoreCompileInputs.cache
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.csproj.CopyComplete
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\LoggingSample_AlexAtaakgayev\LoggingSample_DAL\obj\Debug\LoggingSample_DAL.pdb

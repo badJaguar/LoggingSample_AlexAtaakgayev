@@ -76,6 +76,20 @@ namespace LoggingSample.Controllers
             }
         }
 
+        [HttpPost]
+        [Route("")]
+        public async Task<IHttpActionResult> PostCustomerAsync([FromBody] CustomerModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            await _customerService.CreateCustomerAsync(model);
+            var location = $"/api/customers/{model.Id}";
+            return Created(location, model);
+        }
+
 
         private object InitCustomer(CustomerModel model)
         {
