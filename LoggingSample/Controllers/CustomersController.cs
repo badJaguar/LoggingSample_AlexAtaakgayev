@@ -86,6 +86,7 @@ namespace LoggingSample.Controllers
             {
                 var errors = ModelState.Select(pair => pair.Value.Errors)
                     .Where(collection => collection.Count > 0).ToList();
+
                 foreach (var error in errors)
                 {
                     Logger.Error(error);

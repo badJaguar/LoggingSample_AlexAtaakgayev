@@ -31,19 +31,17 @@ namespace LoggingSample_BLL.Services
 
         public async Task<CustomerModel> CreateCustomerAsync(CustomerModel model)
         {
-            var dbModels = await _context.Customers
-                .Where(customer => customer.Id == model.Id).ToListAsync();
-            var equitable =await _context.Customers.Select(customer => customer.Id).ToListAsync();
-            foreach (var customerId in equitable)
-            {
-                if (model.Id == customerId)
+            var dbModelIds = await _context.Customers
+                .Select(customer => customer.Id).ToListAsync();
+
+            foreach (var id in dbModelIds)
+                if (model.Id == id)
                 {
-                    throw new CustomerServiceException($"Model {customerId} is exists in database", CustomerServiceException.ErrorType.ModelIsExists);
+                    throw new CustomerServiceException($"Model '{id}' is exists in database",
+                        CustomerServiceException.ErrorType.ModelIsExists);
                 }
-            }
             
-            
-            _context.Customers.AddRange(dbModels);
+            _context.Customers.Add(model.Map());
             await _context.SaveChangesAsync();
             return model;
         }
