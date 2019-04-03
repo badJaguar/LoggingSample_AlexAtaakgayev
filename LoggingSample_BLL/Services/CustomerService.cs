@@ -29,7 +29,9 @@ namespace LoggingSample_BLL.Services
                     CustomerServiceException.ErrorType.WrongCustomerId);
             }
 
-            return _context.Customers.SingleOrDefaultAsync(item => item.Id == customerId).ContinueWith(task =>
+            return _context.Customers
+                .SingleOrDefaultAsync(item => item.Id == customerId)
+                .ContinueWith(task =>
             {
                 var customer = task.Result;
 
@@ -45,7 +47,8 @@ namespace LoggingSample_BLL.Services
             foreach (var id in dbModelIds)
                 if (model.Id == id)
                 {
-                    throw new CustomerServiceException($"Model {model} with ID '{id}' is exists in database.",
+                    throw new CustomerServiceException(
+                        $"Model {model} with ID '{id}' is exists in database.",
                         CustomerServiceException.ErrorType.ModelIsExists);
                 }
             

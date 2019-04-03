@@ -17,7 +17,6 @@ namespace LoggingSample.Controllers
     [System.Web.Http.RoutePrefix("api/customers")]
     public class CustomersController : ApiController
     {
-        private readonly AppDbContext _context = new AppDbContext();
         private readonly CustomerService _customerService = new CustomerService();
         private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
@@ -116,7 +115,6 @@ namespace LoggingSample.Controllers
         {
             if (disposing)
             {
-                _context.Dispose();
                 _customerService.Dispose();
             }
             base.Dispose(disposing);
