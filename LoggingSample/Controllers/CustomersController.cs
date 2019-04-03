@@ -95,10 +95,54 @@ namespace LoggingSample.Controllers
                 return BadRequest(ModelState);
             }
 
-            await _customerService.CreateCustomerAsync(model);
-            return Ok(InitCustomer(model));
+            try
+            {
+                await _customerService.CreateCustomerAsync(model);
+                return Ok(InitCustomer(model));
+            }
+            catch (CustomerServiceException e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
+        [System.Web.Http.HttpDelete]
+        [System.Web.Http.Route("{id:int:min(1)}")]
+        public async Task<IHttpActionResult> DeleteAsync([FromUri] int modelId)
+        {
+            Logger.Info($"Start getting customer with id {modelId}.");
+
+            try
+            {
+                var customer = await _customerService.GetCustomerAsync(modelId);
+
+                if (customer == null)
+                {
+                    Logger.Info($"No customer with id {modelId} was found.");
+                    return NotFound();
+                }
+
+                Logger.Info($"Retrieving customer with id {modelId} to response.");
+
+                await _customerService.DeleteCustomerAsync(modelId);
+                return Ok();
+            }
+            catch (CustomerServiceException ex)
+            {
+                if (ex.Type == CustomerServiceException.ErrorType.WrongCustomerId)
+                {
+                    Logger.Warn($"Wrong customerId has been request: {modelId}", ex);
+                    return BadRequest($"Wrong customerId has been request: {modelId}");
+                }
+                throw;
+            }
+            catch (Exception ex)
+            {
+                Logger.Error(ex, $"Some error occured while getting customerId {modelId}");
+                throw;
+            }
+        }
 
         private object InitCustomer(CustomerModel model)
         {

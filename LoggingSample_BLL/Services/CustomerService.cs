@@ -61,7 +61,10 @@ namespace LoggingSample_BLL.Services
 
         public async Task DeleteCustomerAsync (int customerId)
         {
-            var entity = await _context.Customers.FindAsync(customerId);
+            var entities = await _context.Customers
+                .Where(customer => customer.Id == customerId).ToListAsync();
+            var entity = entities[0];
+
             if (entity == null)
             {
                 throw new CustomerServiceException($"ID: {customerId} is not exists.",
