@@ -8,7 +8,6 @@ using System.Web.Routing;
 using LoggingSample_BLL.Helpers;
 using LoggingSample_BLL.Models;
 using LoggingSample_BLL.Services;
-using LoggingSample_DAL.Context;
 using NLog;
 using UrlHelper = System.Web.Http.Routing.UrlHelper;
 
@@ -105,8 +104,14 @@ namespace LoggingSample.Controllers
         {
             return new
             {
-                _self = new UrlHelper(Request).Link("Customer", new { customerId = model.Id }),
-                orders = new UrlHelper(Request).Link("Orders", new { customerId = model.Id }),
+                _self = new UrlHelper(Request).Link("Customer", new
+                {
+                    customerId = model.Id
+                }),
+                orders = new UrlHelper(Request).Link("Orders", new
+                {
+                    customerId = model.Id
+                }),
                 data = model
             };
         }

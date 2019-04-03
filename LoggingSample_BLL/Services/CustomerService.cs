@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using LoggingSample_BLL.Helpers;
 using LoggingSample_BLL.Models;
 using LoggingSample_DAL.Context;
+using LoggingSample_DAL.Entities;
 
 namespace LoggingSample_BLL.Services
 {
@@ -56,6 +57,19 @@ namespace LoggingSample_BLL.Services
             await _context.SaveChangesAsync();
 
             return model;
+        }
+
+        public async Task DeleteCustomerAsync (int customerId)
+        {
+            var entity = await _context.Customers.FindAsync(customerId);
+            if (entity == null)
+            {
+                throw new CustomerServiceException($"ID: {customerId} is not exists.",
+                    CustomerServiceException.ErrorType.WrongCustomerId);
+            }
+
+            _context.Customers.Remove(entity);
+            await _context.SaveChangesAsync();
         }
 
         public void Dispose()
