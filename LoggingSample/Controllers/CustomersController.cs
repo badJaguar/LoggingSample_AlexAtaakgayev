@@ -110,7 +110,7 @@ namespace LoggingSample.Controllers
         }
 
         [System.Web.Http.HttpDelete]
-        [System.Web.Http.Route("{id:int:min(1)}")]
+        [System.Web.Http.Route("")]
         public async Task<IHttpActionResult> DeleteAsync([FromUri] int modelId)
         {
             Logger.Info($"Start getting customer with id {modelId}.");
