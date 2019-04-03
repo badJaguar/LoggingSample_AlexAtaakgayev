@@ -104,7 +104,7 @@ namespace LoggingSample.Controllers
             }
             catch (CustomerServiceException e)
             {
-                Console.WriteLine(e);
+                Logger.Error(e, $"Some error occured while getting customer with ID: {model.Id}");
                 throw;
             }
         }
