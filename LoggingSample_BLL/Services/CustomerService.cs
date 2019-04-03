@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
@@ -12,6 +13,13 @@ namespace LoggingSample_BLL.Services
     public class CustomerService : IDisposable
     {
         private readonly AppDbContext _context = new AppDbContext();
+
+        public async Task<List<CustomerModel>> GetAllAsync()
+        {
+            var customers = (await _context.Customers.ToListAsync())
+                .Select(item => item.Map()).ToList();
+            return customers;
+        }
 
         public Task<CustomerModel> GetCustomerAsync(int customerId)
         {
@@ -37,12 +45,13 @@ namespace LoggingSample_BLL.Services
             foreach (var id in dbModelIds)
                 if (model.Id == id)
                 {
-                    throw new CustomerServiceException($"Model '{id}' is exists in database",
+                    throw new CustomerServiceException($"Model {model} with ID '{id}' is exists in database.",
                         CustomerServiceException.ErrorType.ModelIsExists);
                 }
             
             _context.Customers.Add(model.Map());
             await _context.SaveChangesAsync();
+
             return model;
         }
 

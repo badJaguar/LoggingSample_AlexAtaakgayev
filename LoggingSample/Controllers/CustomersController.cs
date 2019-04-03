@@ -26,13 +26,15 @@ namespace LoggingSample.Controllers
         {
             try
             {
-                var customers = (await _context.Customers.ToListAsync())
-                    .Select(item => item.Map()).Select(InitCustomer).ToList();
+                var customers =(await _customerService.GetAllAsync())
+                    .Select(InitCustomer).ToList();
+
                 if (customers.Count <= 0)
                 {
                     Logger.Warn($"{nameof(customers)} is empty.");
                 }
 
+                Logger.Info($"All customers was returned successfully.");
                 return Ok(customers);
             }
             catch (CustomerServiceException e)
@@ -82,6 +84,7 @@ namespace LoggingSample.Controllers
         [System.Web.Http.Route("")]
         public async Task<IHttpActionResult> PostCustomerAsync([FromBody] CustomerModel model)
         {
+            Logger.Info($"Starting try to add a customer {model}.");
             if (!ModelState.IsValid)
             {
                 var errors = ModelState.Select(pair => pair.Value.Errors)
