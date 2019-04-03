@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Mvc;
@@ -126,7 +128,7 @@ namespace LoggingSample.Controllers
                 Logger.Info($"Retrieving customer with id {modelId} to response.");
 
                 await _customerService.DeleteCustomerAsync(modelId);
-                return Ok();
+                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NoContent));
             }
             catch (CustomerServiceException ex)
             {
